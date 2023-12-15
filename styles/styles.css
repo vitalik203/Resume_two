@@ -1,7 +1,7 @@
 .container {
   margin: 0 auto;
   width: 595px;
-  height: 842px;
+  height: 850px;
   border: 2px solid grey;
 }
 
@@ -110,4 +110,25 @@
 .footer {
   width: 100%;
   margin: 32px;
+}
+.footer .foter__cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.footer .col__title {
+  color: #CA6D18;
+  font-family: Prata;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+.footer .cols-foter {
+  color: #222;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 140% */
+  width: 70%;
 }/*# sourceMappingURL=styles.css.map */
