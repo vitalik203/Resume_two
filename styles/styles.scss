@@ -1,0 +1,22 @@
+.container {
+    margin: 0 auto;
+    width: 595px;
+    height: 842px; 
+    border: 2px solid grey; 
+}
+.header {
+    width: 595px;
+height: 200px;
+flex-shrink: 0;
+    background-image: url(../img/background.svg);
+    width: 100%;
+}
+.main {
+    width: 580px;
+    margin: 32px;
+}
+.footer {
+    width: 580px;
+height: 842px;
+margin: 32px;
+}
