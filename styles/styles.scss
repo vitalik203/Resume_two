@@ -1,3 +1,6 @@
+body{
+    // font-family: Poppins;
+}
 .container {
     margin: 0 auto;
     width: 595px;
@@ -5,11 +8,77 @@
     border: 2px solid grey; 
 }
 .header {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Prata', serif;
     width: 595px;
 height: 200px;
 flex-shrink: 0;
     background-image: url(../img/background.svg);
     // background-color: aqua;
+    .header__logo {
+        border-radius: 50%;
+        width: 104px;
+height: 104px;
+flex-shrink: 0;
+    }
+    .header__margin{
+        margin: 40px 40px 0px;
+        display: block;
+    }
+    .header__about {
+    }
+    .about {
+    }
+    .about__proffession {
+        margin-top: 20px;
+        color: #CA6D18;
+font-family: Prata;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+    }
+    .about__name {
+        color: #222;
+font-family: Prata;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 42px */
+    }
+    .about__username {
+        color: #222;
+font-family: Prata;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 42px */
+    }
+    .contacts{
+        color: #222;
+font-family: Prata;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px; /* 140% */
+text-decoration-line: underline;
+    }
+    .header__contacts {
+
+    }
+    .contacts {
+        a{
+            display: block;
+            margin-bottom: 8px;
+        }
+    }
+    .contacts__email {
+    }
+    .contacts__linkedin {
+    }
+    .contacts__phone {
+    }
 }
 .main {
     width: 100%;
