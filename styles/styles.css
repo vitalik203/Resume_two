@@ -6,19 +6,18 @@
 }
 
 .header {
-  width: 100%;
+  width: 595px;
   height: 200px;
   flex-shrink: 0;
   background-image: url(../img/background.svg);
 }
 
 .main {
-  width: 580px;
+  width: 100%;
   margin: 32px;
 }
 
 .footer {
-  width: 580px;
-  height: 842px;
+  width: 100%;
   margin: 32px;
 }/*# sourceMappingURL=styles.css.map */
