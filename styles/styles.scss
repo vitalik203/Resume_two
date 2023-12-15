@@ -88,6 +88,9 @@ text-decoration-line: underline;
     column-gap: 32px;
     .main__col1 {
     }
+    .col2 .article__subtitle{
+        width: 50px;
+    }
     .col__title {
         color: #CA6D18;
 font-family: Prata;
@@ -96,9 +99,10 @@ font-style: normal;
 font-weight: 400;
 line-height: 20px; /* 142.857% */
     }
-    .col__article {
-        
+    .main__col2 .article__subtitle{
+        width: 80%;
     }
+    
     .article__title {
         color: #222;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);

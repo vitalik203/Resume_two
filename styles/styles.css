@@ -70,6 +70,9 @@
   -moz-column-gap: 32px;
        column-gap: 32px;
 }
+.main .col2 .article__subtitle {
+  width: 50px;
+}
 .main .col__title {
   color: #CA6D18;
   font-family: Prata;
@@ -77,6 +80,9 @@
   font-style: normal;
   font-weight: 400;
   line-height: 20px; /* 142.857% */
+}
+.main .main__col2 .article__subtitle {
+  width: 80%;
 }
 .main .article__title {
   color: #222;
