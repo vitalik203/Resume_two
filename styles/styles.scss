@@ -86,6 +86,41 @@ text-decoration-line: underline;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 32px;
+    .main__col1 {
+    }
+    .col__title {
+        color: #CA6D18;
+font-family: Prata;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+    }
+    .col__article {
+        
+    }
+    .article__title {
+        color: #222;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Prata;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+    }
+    .article__subtitle {
+        color: #797979;
+font-family: Prata;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 145.455% */
+    }
+    .article__description {
+        font-family: Poppins;
+        color: #000000;
+font-size: 10px;
+    }
 }
 .footer {
     width: 100%;
